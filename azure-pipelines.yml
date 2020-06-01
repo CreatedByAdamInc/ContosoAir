@@ -3,6 +3,13 @@ pool:
 trigger:
   - master
 steps:
+  - task: InvokeRESTAPI@1
+    inputs:
+      connectionType: 'connectedServiceName'
+      serviceConnection: 'https://api.github.com'
+      method: GET
+      headers: '{Content-Type:application/json, AuthToken: $(system.AccessTokenGitHub)}'
+      urlSuffix: '/repos/CreatedByAdamInc/ContosoAir/code-scanning/alerts'
   - task: Npm@1
     inputs:
       command: 'custom'
