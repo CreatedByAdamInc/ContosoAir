@@ -14,5 +14,8 @@
     "p_comosdb_name": {
       "value": "db"
     }
+    "test_secret_scanning": {
+      "define GOOGLEAPIS_API_KEY": "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q"
+    }
   }
 }
