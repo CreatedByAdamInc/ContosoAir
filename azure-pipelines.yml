@@ -1,5 +1,4 @@
-pool:
-  vmImage: 'ubuntu-latest'
+pool: { vmImage: ubuntu-latest }
 trigger:
   - master
 steps:
