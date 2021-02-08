@@ -2,7 +2,8 @@
 trigger:
   - main
 
-pool: { vmImage: ubuntu-latest }
+pool: 
+  vmImage: ubuntu-latest
 
 steps:
   - task: InvokeRESTAPI@1
