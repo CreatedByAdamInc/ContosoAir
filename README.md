@@ -1,6 +1,6 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository
 
-[![Build Status](https://dev.azure.com/dabarlow/ContosoAir-GitHubDemo/_apis/build/status/CreatedByAdamInc.ContosoAir%20(1)?branchName=refs%2Fpull%2F6%2Fmerge)](https://dev.azure.com/dabarlow/ContosoAir-GitHubDemo/_build/latest?definitionId=79&branchName=refs%2Fpull%2F6%2Fmerge)
+[![Build Status](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_apis/build/status/CreatedByAdamInc.ContosoAir%20(1)?branchName=master)](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_build/latest?definitionId=2&branchName=master)
 
 ## Microsoft.Github CI Demo
 
