@@ -1,0 +1,18 @@
+name: "Sync with JIRA"
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'    # trigger synchronization every 10 minutes
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync with JIRA
+        uses: johnlugton/lgtm-issue-tracker-example@master
+        with:
+          jira_url: 'https://createdbyadam.atlassian.net/'
+          jira_user: '${{ secrets.JIRA_USER }}'
+          jira_token: '${{ secrets.JIRA_TOKEN }}'
+          jira_project: 'CBAI'
+          sync_direction: 'gh2jira'
