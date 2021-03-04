@@ -1,8 +1,8 @@
 name: "Sync with JIRA"
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'    # trigger synchronization every 10 minutes
+on: workflow_dispatch
+#   schedule:
+#     - cron: '*/10 * * * *'    # trigger synchronization every 10 minutes
 
 jobs:
   test_job:
