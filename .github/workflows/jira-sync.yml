@@ -8,11 +8,28 @@ jobs:
   test_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync with JIRA
-        uses: johnlugton/lgtm-issue-tracker-example@master
-        with:
-          jira_url: 'https://createdbyadam.atlassian.net/'
-          jira_user: '${{ secrets.JIRA_USER }}'
-          jira_token: '${{ secrets.JIRA_TOKEN }}'
-          jira_project: 'CBAI'
-          sync_direction: 'gh2jira'
+      - name: Install dependencies with pipenv
+        run: |
+          pip install pipenv
+          pipenv install --deploy --dev
+          pipenv run ./gh2jira sync \                 
+            --gh-url https://api.github.com \
+            --gh-token <token> \
+            --gh-repo probable-octo-doodle \
+            --jira-url   https://ghas-testing.atlassian.net \
+            --jira-user cmboling@github.com \
+            --jira-token <jira token> \
+            --jira-project GHAS \
+            --direction gh2jira
+            
+#       - name: Sync with JIRA
+#         uses: johnlugton/lgtm-issue-tracker-example@master
+        
+#         with:
+#           jira_url: 'https://createdbyadam.atlassian.net/'
+#           jira_user: '${{ secrets.JIRA_USER }}'
+#           jira_token: '${{ secrets.JIRA_TOKEN }}'
+#           jira_project: 'CBAI'
+#           sync_direction: 'gh2jira'
+
+
