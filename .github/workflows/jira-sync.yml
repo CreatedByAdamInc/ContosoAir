@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync with JIRA
-        uses: johnlugton/lgtm-issue-tracker-example@action
+        uses: johnlugton/lgtm-issue-tracker-example@v2
         with:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
           jira_url: 'https://createdbyadam.atlassian.net'
