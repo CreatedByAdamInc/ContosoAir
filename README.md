@@ -2,6 +2,7 @@
 
 [![Build Status](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_apis/build/status/CreatedByAdamInc.ContosoAir%20(1)?branchName=master)](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_build/latest?definitionId=2&branchName=master)
 ![Code scanning - action](https://github.com/CreatedByAdamInc/ContosoAir/workflows/Code%20scanning%20-%20action/badge.svg)
+![custom badge](https://vsrm.dev.azure.com/dabarlow/_apis/public/Release/badge/f4080d1f-760b-4341-ae78-d3e7e1a098db/1/1)
 
 ## Microsoft.Github CI Demo
 
