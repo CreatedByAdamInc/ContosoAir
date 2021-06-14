@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/adamthecreatorinc/c3ab38bf-7ab2-4f91-b52d-01a365ba4acd/6a0a3deb-533b-4d8d-8300-4307b6eb6a69/_apis/work/boardbadge/7a0b54ff-5627-4587-b85a-afcb4fa016b8)](https://dev.azure.com/adamthecreatorinc/c3ab38bf-7ab2-4f91-b52d-01a365ba4acd/_boards/board/t/6a0a3deb-533b-4d8d-8300-4307b6eb6a69/Microsoft.RequirementCategory)
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository
 
 [![Build Status](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_apis/build/status/CreatedByAdamInc.ContosoAir%20(1)?branchName=master)](https://dev.azure.com/adamthecreatorinc/ContosoAir-GitHub/_build/latest?definitionId=2&branchName=master)
